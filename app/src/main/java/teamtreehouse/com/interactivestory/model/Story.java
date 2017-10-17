@@ -1,10 +1,8 @@
 package teamtreehouse.com.interactivestory.model;
 
+
 import teamtreehouse.com.interactivestory.R;
 
-/**
- * Created by benjakuben on 11/2/14.
- */
 public class Story {
     private Page[] mPages;
 
@@ -54,11 +52,3 @@ public class Story {
         return mPages[pageNumber];
     }
 }
-
-
-
-
-
-
-
-

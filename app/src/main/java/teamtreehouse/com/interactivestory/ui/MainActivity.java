@@ -20,8 +20,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNameField = (EditText)findViewById(R.id.nameEditText);
-        mStartButton = (Button)findViewById(R.id.startButton);
+        mNameField = findViewById(R.id.nameEditText);
+        mStartButton = findViewById(R.id.startButton);
 
         mStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
